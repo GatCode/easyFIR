@@ -78,12 +78,12 @@ def applyFilter(data, coefficients):
 
 #### C/C++
 Start by creating an array containing your measured data as well as an array for the calculated coefficients (output of easyFIR):
-```python
-double data[128] = {14, 10, ... , -40};
-double coefficients[30] = {0.00810278836982443983, ... 0.00810278836982443983};
+```c
+int data = {14, 10, ... , -40};
+double coefficients = {0.00810278836982443983, ... 0.00810278836982443983};
 ```
 
-Then just use a applyFilter function like the one below to apply the filter to your data:
+Then just use a applyFilter function like the one below to apply the filter to your data (SAMPLE_SIZE = 128):
 
 ```c
 # https://stackoverflow.com/questions/20917019/how-to-implement-a-filter-like-scipy-signal-lfilter
