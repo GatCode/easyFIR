@@ -17,6 +17,8 @@ With the help of the "applyFilter" function mentioned in the "How can I use easy
 
 **Output:** an array/list of calculated coefficients, which in combination with the code below, returns the filtered input array
 
+**Practical example:** [here](https://www.instructables.com/id/FIR-Filtering-for-More-Reliable-Frequency-Detectio)
+
 ## Basic principle
 This is a very complex topic but the most importrant thing for you to know is that the resulting filter is designed to work with a finite amount of samples - e.g. 64, 128, 256, ... samples.
 
